@@ -21,8 +21,8 @@ function Hero() {
                     <p className="mt-8 text-base text-black sm:text-xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
 
 
-                    <div class="flex flex-col items-start mt-8 sm:space-x-4 sm:flex-row sm:items-center lg:mt-12">
-                        <a href="#" title="" class="inline-flex items-center justify-center px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">
+                    <div className="flex flex-col items-start mt-8 sm:space-x-4 sm:flex-row sm:items-center lg:mt-12">
+                        <a href="#" title="" className="inline-flex items-center justify-center px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">
                             
                             Get Started Courses
                         </a>
@@ -42,7 +42,7 @@ function Hero() {
                 </div>
 
                 <div>
-                    <img className="w-full" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693642417/education%20img/hero-img_z5pvri.png" alt="" />
+                    <Image className="w-full" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693642417/education%20img/hero-img_z5pvri.png" alt="" />
                 </div>
             </div>
         </div>
