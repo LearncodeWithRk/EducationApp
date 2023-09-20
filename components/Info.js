@@ -17,7 +17,7 @@ function Info() {
             </div>
     
             <div className="mt-16 md:mt-20">
-                <img className="object-cover object-top w-full h-auto mx-auto scale-150 2xl:max-w-screen-2xl xl:scale-100" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693646925/education%20img/illustration_iunhwt.png" alt="" />
+                <image className="object-cover object-top w-full h-auto mx-auto scale-150 2xl:max-w-screen-2xl xl:scale-100" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693646925/education%20img/illustration_iunhwt.png" alt="" />
             </div>
         </section>
     </div>
