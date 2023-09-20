@@ -18,7 +18,7 @@ function Features() {
         
         <a className="group rounded-xl overflow-hidden" href="#">
           <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <img className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image Description"></img>
+            <image className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image Description"></image>
             <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
               Sponsored
             </span>
@@ -42,7 +42,7 @@ function Features() {
        
         <a className="group rounded-xl overflow-hidden" href="#">
           <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <img className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.pexels.com/photos/374897/pexels-photo-374897.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image Description"></img>
+            <image className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.pexels.com/photos/374897/pexels-photo-374897.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image Description"></image>
           </div>
     
           <div className="mt-7">

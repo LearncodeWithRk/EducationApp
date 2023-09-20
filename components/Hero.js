@@ -42,7 +42,7 @@ function Hero() {
                 </div>
 
                 <div>
-                    <Image className="w-full" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693642417/education%20img/hero-img_z5pvri.png" alt="" />
+                    <img className="w-full" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693642417/education%20img/hero-img_z5pvri.png" alt="" />
                 </div>
             </div>
         </div>

@@ -24,7 +24,7 @@ function Testimonials() {
             </svg>
     
             <p className="mt-3 sm:mt-6 text-base text-gray-800 md:text-xl dark:text-white"><em>
-              " Lorem ipsum is a placeholder text commonly used to demonstrate the visual"
+              Lorem ipsum is a placeholder text commonly used to demonstrate the visual
             </em></p>
           </div>
     
@@ -45,7 +45,7 @@ function Testimonials() {
             </svg>
     
             <p className="mt-3 sm:mt-6 text-base text-gray-800 md:text-xl dark:text-white"><em>
-              " Lorem ipsum is a placeholder text commonly used to demonstrate the visual"
+              Lorem ipsum is a placeholder text commonly used to demonstrate the visual
             </em></p>
           </div>
     
@@ -93,7 +93,7 @@ function Testimonials() {
             </svg>
     
             <p className="mt-3 sm:mt-6 text-base text-gray-800 md:text-xl dark:text-white"><em>
-              " Lorem ipsum is a placeholder text commonly used to demonstrate the visual"
+              Lorem ipsum is a placeholder text commonly used to demonstrate the visual
             </em></p>
           </div>
     

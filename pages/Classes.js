@@ -8,7 +8,7 @@ function Classes() {
     
         <section className="relative lg:min-h-[1000px] pt-24 pb-10 sm:pt-32 sm:pb-16 lg:pb-24">
             <div className="absolute inset-x-0 bottom-0 z-10 hidden lg:flex">
-                <img className="hidden w-full lg:block" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693650693/education%20img/credit-cards_zq0dk3.png" alt="" />
+                <image className="hidden w-full lg:block" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693650693/education%20image/credit-cards_zq0dk3.png" alt="" />
                 
             </div>
     
@@ -102,7 +102,7 @@ function Classes() {
             </div>
         </section>
         <div class="container mx-auto 2xl:px-12">
-        <img class="w-full mt-6" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/4/group-of-people.png" alt="" />
+        <image class="w-full mt-6" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/4/group-of-people.png" alt="" />
     </div>
     </div>
 
