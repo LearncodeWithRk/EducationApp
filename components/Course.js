@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 function Course() {
   return (
@@ -13,18 +15,16 @@ function Course() {
         <div className="grid grid-cols-2 gap-6 mt-10 lg:mt-16 lg:gap-4 lg:grid-cols-4">
             <div className="relative group">
                 <div className="overflow-hidden aspect-w-1 aspect-h-1">
-                    <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693643229/education%20img/html_es58cj.png" alt="" />
+                    <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693643229/education%20img/html_es58cj.png" alt=""width={1920} height={1920} />
                 </div>
-                <div className="absolute left-3 top-3">
-                    <p className="sm:px-3 sm:py-1.5 px-1.5 py-1 text-[8px] sm:text-xs font-bold tracking-wide text-gray-900 uppercase bg-white rounded-full">New</p>
-                </div>
+               
                 <div className="flex items-start justify-between mt-4 space-x-4">
                     <div>
                         <h3 className="text-xs font-bold text-gray-900 sm:text-sm md:text-base">
-                            <a href="#" title="">
+                            <Link href="#" title="">
                             Best Course HTML and CSS Or JS
                                 <span className="absolute inset-0" aria-hidden="true"></span>
-                            </a>
+                            </Link>
                         </h3>
                         <div className="flex items-center mt-2.5 space-x-px">
                             <svg className="w-3 h-3 text-yellow-400 sm:w-4 sm:h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -63,15 +63,15 @@ function Course() {
 
             <div className="relative group">
                 <div className="overflow-hidden aspect-w-1 aspect-h-1">
-                    <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693643390/education%20img/uis_rxkwfx.png" alt="" />
+                    <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693643229/education%20img/reactss_j0ozd1.png" alt=""width={1920} height={1920} />
                 </div>
                 <div className="flex items-start justify-between mt-4 space-x-4">
                     <div>
                         <h3 className="text-xs font-bold text-gray-900 sm:text-sm md:text-base">
-                            <a href="#" title="">
+                            <Link href="#" title="">
                            Best Course UI/UX Design
                                 <span className="absolute inset-0" aria-hidden="true"></span>
-                            </a>
+                            </Link>
                         </h3>
                         <div className="flex items-center mt-2.5 space-x-px">
                             <svg className="w-3 h-3 text-yellow-400 sm:w-4 sm:h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -110,18 +110,16 @@ function Course() {
 
             <div className="relative group">
                 <div className="overflow-hidden aspect-w-1 aspect-h-1">
-                    <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693643229/education%20img/reactss_j0ozd1.png" alt="" />
+                    <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693643390/education%20img/uis_rxkwfx.png" alt="" width={1920} height={1920}/>
                 </div>
-                <div className="absolute left-3 top-3">
-                    <p className="sm:px-3 sm:py-1.5 px-1.5 py-1 text-[8px] sm:text-xs font-bold tracking-wide text-white uppercase bg-gray-900 rounded-full">Sale</p>
-                </div>
+               
                 <div className="flex items-start justify-between mt-4 space-x-4">
                     <div>
                         <h3 className="text-xs font-bold text-gray-900 sm:text-sm md:text-base">
-                            <a href="#" title="">
+                            <Link href="#" title="">
                            Best Course React.js or Tailwind CSS
                                 <span className="absolute inset-0" aria-hidden="true"></span>
-                            </a>
+                            </Link>
                         </h3>
                         <div className="flex items-center mt-2.5 space-x-px">
                             <svg className="w-3 h-3 text-gray-300 sm:w-4 sm:h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -161,15 +159,15 @@ function Course() {
 
             <div className="relative group">
                 <div className="overflow-hidden aspect-w-1 aspect-h-1">
-                    <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693643229/education%20img/developer_bjipmm.png" alt="" />
+                    <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693643229/education%20img/developer_bjipmm.png" alt="" width={1920} height={1920}/>
                 </div>
                 <div className="flex items-start justify-between mt-4 space-x-4">
                     <div>
                         <h3 className="text-xs font-bold text-gray-900 sm:text-sm md:text-base">
-                            <a href="#" title="">
+                            <Link href="#" title="">
                             Best Course Full Strack
                                 <span className="absolute inset-0" aria-hidden="true"></span>
-                            </a>
+                            </Link>
                         </h3>
                         <div className="flex items-center mt-2.5 space-x-px">
                             <svg className="w-3 h-3 text-yellow-400 sm:w-4 sm:h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">

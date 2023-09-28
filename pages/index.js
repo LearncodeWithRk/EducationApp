@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import { Inter } from 'next/font/google'
 import Hero from '@/components/Hero'
 import Info from '@/components/Info'
@@ -19,7 +19,7 @@ export default function Home() {
    <Feature />
    <Categories />
    <Info />
-<Testimonials />
+   <Testimonials />
    
    </>
   )

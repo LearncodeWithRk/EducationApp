@@ -10,7 +10,7 @@ function Contact() {
             Contact us
           </h1>
           <p className="mt-1 text-gray-600 dark:text-gray-400">
-            We would love to talk about how we can help you.
+            We would love to talk about how we can help you
           </p>
         </div>
     
@@ -60,7 +60,7 @@ function Contact() {
     
               <div className="mt-3 text-center">
                 <p className="text-sm text-gray-500">
-                  We will get back to you in 1 2 business days.
+                  We will get back to you in 1 2 business days
                 </p>
               </div>
             </form>
@@ -76,7 +76,7 @@ function Contact() {
               </svg>
               <div>
                 <h3 className="font-semibold text-gray-800 dark:text-gray-200">Knowledge base</h3>
-                <p className="mt-1 text-sm text-gray-500">We're here to help with any questions or code.</p>
+                <p className="mt-1 text-sm text-gray-500">We are here to help with any questions or code</p>
                 <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
                   Contact support
                   <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,7 +95,7 @@ function Contact() {
               </svg>
               <div>
                 <h3 className="font-semibold text-gray-800 dark:text-gray-200">FAQ</h3>
-                <p className="mt-1 text-sm text-gray-500">Search our FAQ for answers to anything you might ask.</p>
+                <p className="mt-1 text-sm text-gray-500">Search our FAQ for answers to anything you might ask</p>
                 <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
                   Visit FAQ
                   <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,7 +112,7 @@ function Contact() {
               </svg>
               <div>
                 <h3 className="font-semibold text-gray-800 dark:text-gray-200">Developer APIs</h3>
-                <p className="mt-1 text-sm text-gray-500">Check out our development quickstart guide.</p>
+                <p className="mt-1 text-sm text-gray-500">Check out our development quickstart guide</p>
                 <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" href="#">
                   Contact sales
                   <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

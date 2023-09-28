@@ -1,11 +1,15 @@
 import React from 'react'
-
+import Image from 'next/image'
 function About() {
   return (
-    <section className="py-10 bg-white sm:py-16 lg:py-24">
-    <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">About Us</h2>
 
+    
+    <section className="py-10 bg-white sm:py-16 lg:py-2">
+    <div className="container mx-auto 2xl:px-5">
+        <Image className="w-full mt-6" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1695898449/education%20img/abouts_pkasyl.png" alt="" width={1920} height={1920}></Image>
+    </div>
+    <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
+       
         <div className="flow-root mt-12 sm:mt-16">
             <div className="divide-y divide-gray--200 -my-9">
                 <div className="py-9">

@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Image from 'next/image'
+import Link from 'next/link'
 function Feature() {
   return (
     <section className="bg-gray-50 2xl:py-24 2xl:bg-gray-50">
@@ -7,7 +8,7 @@ function Feature() {
         <div className="py-10 sm:py-16 lg:py-24 2xl:pl-24">
             <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
                 <div className="lg:order-2 2xl:-mr-24">
-                    <img className="w-full shadow-xl rounded-xl" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693646383/education%20img/dashboard-screenshot_dzrcbq.png" alt="" />
+                    <Image className="w-full shadow-xl rounded-xl" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693646383/education%20img/dashboard-screenshot_dzrcbq.png" alt="" width={1920} height={1920} />
                 </div>
 
                 <div className="lg:order-1">
@@ -58,14 +59,14 @@ function Feature() {
                     </ul>
 
                     <div className="flex flex-col items-start mt-8 sm:space-x-4 sm:flex-row sm:items-center lg:mt-12">
-                        <a href="#" title="" className="inline-flex items-center justify-center px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">
+                        <Link href="#" title="" className="inline-flex items-center justify-center px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">
                             <svg className="w-5 h-5 mr-2 -ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
                             Download Now
-                        </a>
+                        </Link>
 
-                        <a href="#" title="" className="inline-flex items-center justify-center px-4 py-4 mt-5 text-base font-semibold text-black transition-all duration-200 bg-transparent border border-black rounded-md sm:mt-0 hover:bg-blue-800 hover:text-black" role="button"> More View </a>
+                        <Link href="#" title="" className="inline-flex items-center justify-center px-4 py-4 mt-5 text-base font-semibold text-black transition-all duration-200 bg-transparent border border-black rounded-md sm:mt-0 hover:bg-blue-800 hover:text-black" role="button"> More View </Link>
                     </div>
                 </div>
             </div>

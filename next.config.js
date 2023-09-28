@@ -13,6 +13,11 @@ module.exports = {
         hostname: 'res.cloudinary.com',
         
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn.rareblocks.xyz',
+        
+      },
     ],
   },
 }

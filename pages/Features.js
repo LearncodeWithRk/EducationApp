@@ -1,6 +1,8 @@
 import React from 'react'
 import Features1 from './Features1'
 import Gallery from './Gallery'
+import Image from 'next/image'
+
 
 function Features() {
   return (
@@ -18,9 +20,9 @@ function Features() {
         
         <a className="group rounded-xl overflow-hidden" href="#">
           <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <image className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image Description"></image>
+            <Image className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1695898064/education%20img/pexels-august-de-richelieu-4261790_ljumc3.jpg" alt="Image Description" width={1920} height={1920}></Image>
             <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
-              Sponsored
+              Education
             </span>
           </div>
     
@@ -42,7 +44,7 @@ function Features() {
        
         <a className="group rounded-xl overflow-hidden" href="#">
           <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <image className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://images.pexels.com/photos/374897/pexels-photo-374897.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image Description"></image>
+            <Image className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://res.cloudinary.com/dysxcljt2/image/upload/v1695897456/education%20img/pexels-august-de-richelieu-4260325_iwx7jb.jpg" alt="Image Description" width={1920} height={1920}></Image>
           </div>
     
           <div className="mt-7">
@@ -61,7 +63,7 @@ function Features() {
           </div>
         </a>
        
-        <a className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://images.pexels.com/photos/4626343/pexels-photo-4626343.jpeg?auto=compress&cs=tinysrgb&w=600')]" href="#">
+        <a className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://Images.pexels.com/photos/4626343/pexels-photo-4626343.jpeg?auto=compress&cs=tinysrgb&w=600')]" href="#">
           <div className="flex-auto p-4 md:p-6">
             <h3 className="text-xl text-white/[.9] group-hover:text-white"><span className="font-bold">Course</span> Lorem ipsum is a placeholder text commonly used to demonstrate the visual </h3>
           </div>
