@@ -2,8 +2,15 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
+
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+
+  // Function to close the mobile menu
+  const closeMobileMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div>
       <nav className="bg-gray-800">
@@ -11,46 +18,37 @@ function Nav() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Link href="/"><Image
-                  className="h-12 w-12"
-                  src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693653575/education%20img/edulogo_zn3f7r.png"
-                  alt="realestate"
-                  width={100} height={100}
-                /></Link>
+                <Link href="/">
+                  <Image
+                    className="h-12 w-12"
+                    src="https://res.cloudinary.com/dysxcljt2/image/upload/v1693653575/education%20img/edulogo_zn3f7r.png"
+                    alt="realestate"
+                    width={100}
+                    height={100}
+                  />
+                </Link>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <Link href="/"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
+                  <Link href="/" onClick={closeMobileMenu} className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">
                     HOME
                   </Link>
 
-                  <Link href="/About"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
+                  <Link href="/About" onClick={closeMobileMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     About us
                   </Link>
 
-                  <Link href="/Classes"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
+                  <Link href="/Classes" onClick={closeMobileMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Demo Classes
                   </Link>
 
-                  <Link href="/Features"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
+                  <Link href="/Features" onClick={closeMobileMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Features
                   </Link>
 
-                  <Link href="/Contact"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
+                  <Link href="/Contact" onClick={closeMobileMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Contact Us
                   </Link>
-
-                 
                 </div>
               </div>
             </div>
@@ -72,12 +70,7 @@ function Nav() {
                     stroke="currentColor"
                     aria-hidden="true"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
                 ) : (
                   <svg
@@ -88,12 +81,7 @@ function Nav() {
                     stroke="currentColor"
                     aria-hidden="true"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 )}
               </button>
@@ -113,45 +101,30 @@ function Nav() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link href="/"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
+                <Link href="/" onClick={closeMobileMenu} className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                   HOME
                 </Link>
 
-                <Link href="/About"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
+                <Link href="/About" onClick={closeMobileMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                   About
                 </Link>
 
-                <Link href="/Classes"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                 Demo Class
+                <Link href="/Classes" onClick={closeMobileMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                  Demo Class
                 </Link>
 
-                <Link href="/Features"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                 Features
+                <Link href="/Features" onClick={closeMobileMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                  Features
                 </Link>
 
-                <Link href="/Contact"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
+                <Link href="/Contact" onClick={closeMobileMenu} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                   Contact
                 </Link>
-
-                
               </div>
             </div>
           )}
         </Transition>
       </nav>
-
-     
-     
     </div>
   );
 }
